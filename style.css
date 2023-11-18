@@ -34,6 +34,12 @@ a {
 a:hover {
 	color: #b68ef0;
 }
+@media only screen and (max-width: 1000px) {
+	ul {
+		display: none;
+		flex-wrap: wrap;
+	}
+}
 
 /* Main */
 section {
@@ -54,7 +60,10 @@ p {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-
+#mission p {
+	text-align: justify;
+	padding: 10px;
+}
 
 /* Services */
 #services {
@@ -88,7 +97,9 @@ h3 {
 	.services {
 		display: flex;
 		flex-wrap: wrap;
-
+	}
+	.service p{
+		height: 100px;
 	}
 }
 /* Contact */
