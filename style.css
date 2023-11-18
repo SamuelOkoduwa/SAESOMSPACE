@@ -93,7 +93,6 @@ p {
 .service p {
 	text-align: justify;
 	background-color: #642df8;
-	border: 5px solid black;
 	border-radius: 10px;
 	padding: 10px;
 	height: 300px;
